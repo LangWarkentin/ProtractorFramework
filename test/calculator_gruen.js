@@ -2,7 +2,7 @@ let homepage = require('../pages/homepage');
 
 describe('demo calculator tests', function () {
 
-    it('addition test', function () {
+    it('green test', function () {
 
         //browser.get('http://juliemr.github.io/protractor-demo/');
         homepage.get('http://juliemr.github.io/protractor-demo/');
