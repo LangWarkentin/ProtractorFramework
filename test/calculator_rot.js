@@ -9,18 +9,18 @@ describe('demo calculator tests', function () {
 
 
         //element(by.model('first')).sendKeys('2');
-        homepage.enterFirstNumber(4);
+        homepage.enterFirstNumber(22);
 
         //element(by.model('second')).sendKeys('3');
-        homepage.enterSecondNumber(3);
+        homepage.enterSecondNumber(33);
 
         //element(by.css('[ng-click="doAddition()"]')).click();
-        homepage.clickGo1();
+        homepage.clickGo();
 
 
         //let result = element(by.cssContainingText('.ng-binding', '5'));
         // expect(result.getText()).toEqual('5');
-        homepage.verifyResult('7');
+        homepage.verifyResult('55');
 
         browser.sleep(2000)
     });
